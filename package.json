@@ -1,0 +1,29 @@
+{
+  "name": "airports-data",
+  "version": "1.0.0",
+  "description": "Airports data: static, dynamic and custom dump.",
+  "main": "index.js",
+  "scripts": {
+    "dump": "node cli.js -d > airports.json",
+    "version": "npm run dump && git add -A",
+    "postversion": "git push origin master && git push --tags && npm publish"
+  },
+  "bin": {
+    "airports-data": "cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "author": "Damien Seguin (https://dmnsgn.me)",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parse": "^3.1.3",
+    "meow": "^5.0.0",
+    "node-fetch": "^2.2.0",
+    "number-is-float": "^1.0.0"
+  }
+}
