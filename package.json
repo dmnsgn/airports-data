@@ -13,7 +13,8 @@
   },
   "files": [
     "index.js",
-    "cli.js"
+    "cli.js",
+    "airports.json"
   ],
   "engines": {
     "node": ">=8"
