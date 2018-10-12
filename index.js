@@ -1,4 +1,5 @@
 const fs = require("fs");
+const path = require("path");
 const fetch = require("node-fetch");
 const parse = require("csv-parse");
 const numberIsFloat = require("number-is-float");
@@ -30,7 +31,9 @@ const parseData = (data, options) =>
   });
 
 const getStaticData = () =>
-  JSON.parse(fs.readFileSync("./airports.json", { encoding: "utf8" }));
+  JSON.parse(
+    fs.readFileSync(path.join(__dirname, "airports.json"), { encoding: "utf8" })
+  );
 
 const getDynamicData = () =>
   fetch(URL)
