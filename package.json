@@ -1,6 +1,6 @@
 {
   "name": "airports-data",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Airports data: static, dynamic and custom dump.",
   "main": "index.js",
   "scripts": {
