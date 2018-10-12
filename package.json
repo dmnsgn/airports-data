@@ -37,10 +37,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/dmnsgn/canvas-screenshot.git"
+    "url": "git://github.com/dmnsgn/airports-data.git"
   },
-  "homepage": "https://github.com/dmnsgn/canvas-screenshot",
+  "homepage": "https://github.com/dmnsgn/airports-data",
   "bugs": {
-    "url": "https://github.com/dmnsgn/canvas-screenshot/issues"
+    "url": "https://github.com/dmnsgn/airports-data/issues"
   }
 }
