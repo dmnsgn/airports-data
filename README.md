@@ -11,7 +11,7 @@ Airports data: static, dynamic and custom dump. Data from [OpenFlights Airports 
 npm install airports-data
 ```
 
-[![NPM](https://nodei.co/npm/airports-data.png)](https://nodei.co/npm/airports-data/)
+[![NPM](https://nodei.co/npm/airports-data.png)](https://nodei.co/npm/airports-data/) [![Greenkeeper badge](https://badges.greenkeeper.io/dmnsgn/airports-data.svg)](https://greenkeeper.io/)
 
 ## Usage
 
